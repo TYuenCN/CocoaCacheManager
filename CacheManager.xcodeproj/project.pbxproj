@@ -19,6 +19,8 @@
 		9FFFAE4118C59E8D00817C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFFAE2918C59E8D00817C08 /* UIKit.framework */; };
 		9FFFAE4918C59E8D00817C08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FFFAE4718C59E8D00817C08 /* InfoPlist.strings */; };
 		9FFFAE4B18C59E8D00817C08 /* CacheManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFAE4A18C59E8D00817C08 /* CacheManagerTests.m */; };
+		9FFFAE5518C5A12900817C08 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FFFAE5418C5A12900817C08 /* README.md */; };
+		9FFFAE5A18C5A19900817C08 /* YSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFAE5918C5A19900817C08 /* YSCacheManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		9FFFAE4618C59E8D00817C08 /* CacheManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CacheManagerTests-Info.plist"; sourceTree = "<group>"; };
 		9FFFAE4818C59E8D00817C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FFFAE4A18C59E8D00817C08 /* CacheManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheManagerTests.m; sourceTree = "<group>"; };
+		9FFFAE5418C5A12900817C08 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		9FFFAE5818C5A19900817C08 /* YSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCacheManager.h; sourceTree = "<group>"; };
+		9FFFAE5918C5A19900817C08 /* YSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCacheManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,7 @@
 		9FFFAE2B18C59E8D00817C08 /* CacheManager */ = {
 			isa = PBXGroup;
 			children = (
+				9FFFAE5718C5A18900817C08 /* Classes */,
 				9FFFAE3418C59E8D00817C08 /* YSAppDelegate.h */,
 				9FFFAE3518C59E8D00817C08 /* YSAppDelegate.m */,
 				9FFFAE3718C59E8D00817C08 /* Images.xcassets */,
@@ -118,6 +124,7 @@
 		9FFFAE2C18C59E8D00817C08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9FFFAE5418C5A12900817C08 /* README.md */,
 				9FFFAE2D18C59E8D00817C08 /* CacheManager-Info.plist */,
 				9FFFAE2E18C59E8D00817C08 /* InfoPlist.strings */,
 				9FFFAE3118C59E8D00817C08 /* main.m */,
@@ -142,6 +149,15 @@
 				9FFFAE4718C59E8D00817C08 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FFFAE5718C5A18900817C08 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9FFFAE5818C5A19900817C08 /* YSCacheManager.h */,
+				9FFFAE5918C5A19900817C08 /* YSCacheManager.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFFAE5518C5A12900817C08 /* README.md in Resources */,
 				9FFFAE3018C59E8D00817C08 /* InfoPlist.strings in Resources */,
 				9FFFAE3818C59E8D00817C08 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +259,7 @@
 			files = (
 				9FFFAE3618C59E8D00817C08 /* YSAppDelegate.m in Sources */,
 				9FFFAE3218C59E8D00817C08 /* main.m in Sources */,
+				9FFFAE5A18C5A19900817C08 /* YSCacheManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
