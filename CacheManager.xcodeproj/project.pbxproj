@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F461B1518C9B411002EF9A4 /* YSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F461B1418C9B411002EF9A4 /* YSCacheManager.m */; };
+		9F461B1918C9B4FA002EF9A4 /* YSCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F461B1818C9B4FA002EF9A4 /* YSCacheManager.m */; };
 		9FFFAE2618C59E8D00817C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFFAE2518C59E8D00817C08 /* Foundation.framework */; };
 		9FFFAE2818C59E8D00817C08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFFAE2718C59E8D00817C08 /* CoreGraphics.framework */; };
 		9FFFAE2A18C59E8D00817C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFFAE2918C59E8D00817C08 /* UIKit.framework */; };
@@ -34,8 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9F461B1318C9B411002EF9A4 /* YSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCacheManager.h; sourceTree = "<group>"; };
-		9F461B1418C9B411002EF9A4 /* YSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCacheManager.m; sourceTree = "<group>"; };
+		9F461B1718C9B4FA002EF9A4 /* YSCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCacheManager.h; sourceTree = "<group>"; };
+		9F461B1818C9B4FA002EF9A4 /* YSCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCacheManager.m; sourceTree = "<group>"; };
 		9FFFAE2218C59E8D00817C08 /* CacheManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CacheManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFFAE2518C59E8D00817C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9FFFAE2718C59E8D00817C08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,14 +79,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F461B1218C9B411002EF9A4 /* YSCacheManager */ = {
+		9F461B1618C9B4FA002EF9A4 /* YSCacheManager */ = {
 			isa = PBXGroup;
 			children = (
-				9F461B1318C9B411002EF9A4 /* YSCacheManager.h */,
-				9F461B1418C9B411002EF9A4 /* YSCacheManager.m */,
+				9F461B1718C9B4FA002EF9A4 /* YSCacheManager.h */,
+				9F461B1818C9B4FA002EF9A4 /* YSCacheManager.m */,
 			);
-			name = YSCacheManager;
-			path = "../../../../../Documents/SXZW/Workspace/外包版源码－解压处理/20140306/MicroBusinessCard_new/MicroBusinessCard/OtherFramework/YSCacheManager";
+			path = YSCacheManager;
 			sourceTree = "<group>";
 		};
 		9FFFAE1918C59E8D00817C08 = {
@@ -122,7 +121,7 @@
 		9FFFAE2B18C59E8D00817C08 /* CacheManager */ = {
 			isa = PBXGroup;
 			children = (
-				9F461B1218C9B411002EF9A4 /* YSCacheManager */,
+				9F461B1618C9B4FA002EF9A4 /* YSCacheManager */,
 				9FFFAE3418C59E8D00817C08 /* YSAppDelegate.h */,
 				9FFFAE3518C59E8D00817C08 /* YSAppDelegate.m */,
 				9FFFAE3718C59E8D00817C08 /* Images.xcassets */,
@@ -260,7 +259,7 @@
 			files = (
 				9FFFAE3618C59E8D00817C08 /* YSAppDelegate.m in Sources */,
 				9FFFAE3218C59E8D00817C08 /* main.m in Sources */,
-				9F461B1518C9B411002EF9A4 /* YSCacheManager.m in Sources */,
+				9F461B1918C9B4FA002EF9A4 /* YSCacheManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
